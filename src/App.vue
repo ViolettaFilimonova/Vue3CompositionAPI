@@ -1,6 +1,6 @@
 <template>
   <h1 @click="handleHeadingClick">I am {{name}}, {{age}}</h1>
-  <MyButton/>
+  <MyButton text="My button"/>
 </template>
 <!-- <script>
 import MyButton from '@/components/MyButton.vue'

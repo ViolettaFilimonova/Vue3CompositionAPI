@@ -1,3 +1,16 @@
 <template>
-    <button>Button1</button>
+    <button>{{text}}</button>
 </template>
+<script>
+export default{
+    setup() {
+        
+    },
+    props:{
+        text:{
+            type: String,
+            default: 'No button text'
+        }
+    }
+}
+</script>
