@@ -5,7 +5,7 @@
   @buttonClicked="showAlerts"
   />
 </template>
-<script>
+<!-- <script>
 import MyButton from '@/components/MyButton.vue'
 import { ref } from '@vue/reactivity'
 export default{
@@ -32,9 +32,9 @@ export default{
       MyButton
     }
 }
-</script>
+</script> -->
 
-<!-- <script setup>
+<script setup>
 import MyButton from '@/components/MyButton.vue'
 import { ref } from '@vue/reactivity'
     const name = ref('Violetta')
@@ -44,5 +44,7 @@ import { ref } from '@vue/reactivity'
       name.value = 'Vi'
       age.value = 24
     }
-
-</script> -->
+    const showAlerts = () => {
+      alert('Button was clicked')
+    }
+</script> 
