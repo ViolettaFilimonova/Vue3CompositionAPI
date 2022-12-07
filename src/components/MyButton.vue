@@ -1,3 +1,3 @@
 <template>
-    <button>Button</button>
+    <button>Button1</button>
 </template>
