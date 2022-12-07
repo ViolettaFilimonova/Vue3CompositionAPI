@@ -1,23 +1,30 @@
 <template>
-<h1>I am {{name}}, {{age}}</h1>
+<h1 @click="handleHeadingClick">I am {{name}}, {{age}}</h1>
 </template>
-<!-- <script>
+<script>
 import { ref } from '@vue/reactivity'
 export default{
   setup(){
     const name = ref('Violetta')
     const age= ref(23)
 
+    const handleHeadingClick = () => {
+      name.value = 'Vi'
+      age.value = 24
+    }
+
     return{
       age,
-      name
+      name,
+      handleHeadingClick
     }
   }
 }
-</script> -->
-<script setup>
+</script>
+
+<!-- <script setup>
 import { ref } from '@vue/reactivity'
     const name = ref('Violetta')
     const age= ref(24)
-</script>
+</script> -->
 
