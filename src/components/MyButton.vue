@@ -1,7 +1,7 @@
 <template>
     <button>{{text}}</button>
 </template>
-<script>
+<!-- <script>
 export default{
     setup() {
         
@@ -13,4 +13,13 @@ export default{
         }
     }
 }
+</script> -->
+<script setup>
+    const props = defineProps({
+        text:{
+            type: String,
+            default: 'No button text'
+        }
+    })
 </script>
+
