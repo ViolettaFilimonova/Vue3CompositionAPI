@@ -1,7 +1,7 @@
 <template>
 <h1>I am {{name}}, {{age}}</h1>
 </template>
-<script>
+<!-- <script>
 import { ref } from '@vue/reactivity'
 export default{
   setup(){
@@ -14,5 +14,10 @@ export default{
     }
   }
 }
+</script> -->
+<script setup>
+import { ref } from '@vue/reactivity'
+    const name = ref('Violetta')
+    const age= ref(24)
 </script>
 
