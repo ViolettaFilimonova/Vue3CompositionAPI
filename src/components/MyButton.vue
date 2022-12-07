@@ -25,7 +25,7 @@ export default{
     })
     const emits = defineEmits(['buttonClicked'])
     const handleButtonClicked = () => {
-        emits('buttonClicked')
+        emits('buttonClicked', 29)
     }
 </script>
 

@@ -44,7 +44,7 @@ import { ref } from '@vue/reactivity'
       name.value = 'Vi'
       age.value = 24
     }
-    const showAlerts = () => {
-      alert('Button was clicked')
+    const showAlerts = (newAhe) => {
+      age.value = 29
     }
 </script> 
