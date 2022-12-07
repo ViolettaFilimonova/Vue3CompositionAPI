@@ -1,7 +1,7 @@
 <template>
-    <button>{{text}}</button>
+    <button @click="$emit('buttonClicked')">{{text}}</button>
 </template>
-<!-- <script>
+<script>
 export default{
     setup() {
         
@@ -11,15 +11,17 @@ export default{
             type: String,
             default: 'No button text'
         }
-    }
+    },
+    emits:['buttonClicked']
 }
-</script> -->
-<script setup>
+</script>
+<!-- <script setup>
     const props = defineProps({
         text:{
             type: String,
             default: 'No button text'
         }
     })
-</script>
+    
+</script> -->
 
