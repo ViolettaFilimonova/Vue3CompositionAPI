@@ -1,7 +1,9 @@
 <template>
-<h1 @click="handleHeadingClick">I am {{name}}, {{age}}</h1>
+  <h1 @click="handleHeadingClick">I am {{name}}, {{age}}</h1>
+  <MyButton/>
 </template>
-<!-- <script>
+<script>
+import MyButton from '@/components/MyButton.vue'
 import { ref } from '@vue/reactivity'
 export default{
   setup(){
@@ -18,11 +20,14 @@ export default{
       name,
       handleHeadingClick
     }
-  }
+  },
+  components: {
+      MyButton
+    }
 }
-</script> -->
+</script>
 
-<script setup>
+<!-- <script setup>
 import { ref } from '@vue/reactivity'
     const name = ref('Violetta')
     const age= ref(24)
@@ -31,5 +36,4 @@ import { ref } from '@vue/reactivity'
       name.value = 'Vi'
       age.value = 24
     }
-</script>
-
+</script> -->
