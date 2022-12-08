@@ -9,6 +9,7 @@
     </div>
     </div> -->
     <h2>{{title}}</h2>
+    <NotesLenght/>
     <ul>
         <li v-for="(note, index) in notes" :key="index">{{note}}</li>
         <input type="text" v-model="text" @keypress.enter="save">
@@ -25,9 +26,11 @@ import {ref} from 'vue'
     }
 </script> -->
 <script>
+import NotesLenght from './NotesLenght.vue'
 import {useStore} from 'vuex'
 import {ref, computed} from 'vue'
 export default{
+  components: { NotesLenght },
     setup(){
         const store = useStore()
         // const notes = computed(() => store.state.notes);

@@ -22,11 +22,14 @@
 import {createStore} from 'vuex'
 const state = {
     title: 'Vuex + Composition API',
-    notes: []
+    notes: [],
 }
 const getters = {
     ADD_NOTE(state) {
        return state.notes
+    },
+    TOTAL_NOTES(state){
+        return state.notes.length
     }
 }
 const mutations = {
