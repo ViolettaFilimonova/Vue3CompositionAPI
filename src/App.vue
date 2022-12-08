@@ -1,9 +1,12 @@
 <template>
-  <h1 @click="handleHeadingClick">I am {{name}}, {{age}}</h1>
+  <div class="container">
+    <h1 @click="handleHeadingClick">I am {{name}}, {{age}}</h1>
   <MyButton  
   text="My button"
   @buttonClicked="showAlerts"
   />
+  <MyCounter/>
+  </div>
 </template>
 <!-- <script>
 import MyButton from '@/components/MyButton.vue'
@@ -35,6 +38,7 @@ export default{
 </script> -->
 
 <script setup>
+import MyCounter from './components/MyCounter.vue';
 import MyButton from '@/components/MyButton.vue'
 import { ref } from '@vue/reactivity'
     const name = ref('Violetta')
@@ -48,3 +52,9 @@ import { ref } from '@vue/reactivity'
       age.value = 29
     }
 </script> 
+<style>
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+</style>
