@@ -27,5 +27,6 @@ export default{
     const handleButtonClicked = () => {
         emits('buttonClicked', 29)
     }
+    console.log('work');
 </script>
 
