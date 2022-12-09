@@ -13,3 +13,8 @@ export default{
     }
 }
 </script>
+<style>
+p{
+    color: blueviolet;
+}
+</style>
