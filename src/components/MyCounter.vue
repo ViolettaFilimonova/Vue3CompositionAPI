@@ -63,6 +63,9 @@ export default{
     font-size: 60px;
     color: red;
 }
+h2{
+    color: red;
+}
 .buttons button{
     font-size: 60px;
     width: 100px;
