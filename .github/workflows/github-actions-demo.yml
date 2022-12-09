@@ -28,9 +28,6 @@ jobs:
          npx gh-pages -d build -u "github-actions-bot <support+actions@github.com>"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
-
-   env:
-    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
       # - name: build storybook
       #   run: npm run build:storybook
       # - name: unit test
