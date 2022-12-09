@@ -1,3 +1,3 @@
-module.exports = {
-    publicPath: '/vue-composition-api/'
-}
+// module.exports = {
+//     publicPath: '/vue-composition-api/'
+// }
