@@ -60,7 +60,8 @@ export default{
     justify-content: center;
 }
 .counter__num p{
-    font-size: 80px;
+    font-size: 60px;
+    color: red;
 }
 .buttons button{
     font-size: 60px;
