@@ -2,7 +2,7 @@
   "name": "vue-composition-api",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://ViolettaFilimonova/github.io/Vue3CompositionAPI",
+  "homepage": "https://ViolettaFilimonova.github.io/Vue3CompositionAPI",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
