@@ -20,6 +20,8 @@ jobs:
         run: npm install
       - name: build project
         run: npm run build
+      - name: deploy github-pages
+        run: npm run deploy
       # - name: build storybook
       #   run: npm run build:storybook
       # - name: unit test
