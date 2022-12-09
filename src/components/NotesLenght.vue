@@ -15,6 +15,6 @@ export default{
 </script>
 <style>
 p{
-    color: rgb(98, 40, 152);
+    color: rgb(152, 40, 145);
 }
 </style>
