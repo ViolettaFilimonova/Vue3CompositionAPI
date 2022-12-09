@@ -15,6 +15,6 @@ export default{
 </script>
 <style>
 p{
-    color: blueviolet;
+    color: rgb(98, 40, 152);
 }
 </style>
