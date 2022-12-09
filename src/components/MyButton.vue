@@ -29,4 +29,10 @@ export default{
     }
     console.log('work');
 </script>
+<style scoped>
+button{
+    background: black;
+    color: white;
+}
+</style>
 
