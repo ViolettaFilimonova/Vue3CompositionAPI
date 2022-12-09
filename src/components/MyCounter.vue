@@ -63,7 +63,7 @@ export default{
     font-size: 80px;
 }
 .buttons button{
-    font-size: 40px;
+    font-size: 60px;
     width: 100px;
     margin: 0 10px;
 }
