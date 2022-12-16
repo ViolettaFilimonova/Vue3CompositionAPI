@@ -1,6 +1,9 @@
 <template>
     <!-- <button @click="$emit('buttonClicked')">{{text}}</button> -->
-    <button @click="handleButtonClicked">{{text}}</button>
+    <!-- <button @click="handleButtonClicked">{{text}}</button> -->
+  <button class="uppercase text-sm font-medium tracking-wider py-2.5 px-4 mr-1 focus:outline-none">
+    <slot></slot>
+  </button>
 </template>
 <!-- <script>
 export default{
@@ -16,7 +19,7 @@ export default{
      emits:['buttonClicked']//необязательно 
 }
 </script> -->
-<script setup>
+<!-- <script setup>
     const props = defineProps({
         text:{
             type: String,
@@ -27,7 +30,6 @@ export default{
     const handleButtonClicked = () => {
         emits('buttonClicked', 29)
     }
-    console.log('work');
 </script>
 <style scoped>
 button{
@@ -35,4 +37,4 @@ button{
     color: white;
 }
 </style>
-
+ -->
